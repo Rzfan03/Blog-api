@@ -1,22 +1,13 @@
 {
-  "name": "blogapi",
+  "name": "blog-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node netlify/functions/server.js",
+    "dev": "nodemon netlify/functions/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@supabase/supabase-js": "^2.81.1",
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.11",
-    "serverless-http": "^4.0.0"
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0",
+    "@supabase/supabase-js": "^2.43.2"
   }
 }
