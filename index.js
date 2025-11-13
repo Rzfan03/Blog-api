@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 const SUPABASE_URL = 'https://npnhsysnwlimuoyijorm.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5wbmhzeXNud2xpbXVveWlqb3JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI5OTMzMDQsImV4cCI6MjA3ODU2OTMwNH0.ImUGL4NxqeO2KPPUk-ZwTrsJ2UcSK-sTgYCg_yaNjck';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5wbmhzeXNud2xpbXVveWlqb3JtIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2Mjk5MzMwNCwiZXhwIjoyMDc4NTY5MzA0fQ.b8l-OGVE66tOh2hql8ssnq11_ipC_2F1be18bX-C6SI';
 
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
 
